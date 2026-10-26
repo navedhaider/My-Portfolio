@@ -31,7 +31,7 @@ export const ResumeSection = ({ onOpenResumeModal }) => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="glass-card rounded-3xl p-8 sm:p-10 border shadow-xl relative overflow-hidden"
+          className="glass-card rounded-2xl sm:rounded-3xl p-5 sm:p-10 border shadow-xl relative overflow-hidden"
         >
           {/* Subtle background glow */}
           <div className="absolute top-0 right-0 w-80 h-80 bg-gradient-to-br from-blue-500/10 via-cyan-500/5 to-purple-500/10 rounded-full blur-3xl pointer-events-none" />

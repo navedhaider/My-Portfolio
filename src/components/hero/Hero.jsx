@@ -73,14 +73,14 @@ export const Hero = ({ onOpenResume, onOpenHireMe }) => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-[1.15]"
+              className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-[1.2] sm:leading-[1.15]"
             >
               Hi, I'm{' '}
               <span className="text-gradient-primary">
                 {portfolioData.personal.name}
               </span>
               <br />
-              <span className="text-slate-800 dark:text-slate-200 text-3xl sm:text-4xl lg:text-5xl font-bold">
+              <span className="text-slate-800 dark:text-slate-200 text-2xl sm:text-4xl lg:text-5xl font-bold">
                 Full Stack .NET Developer
               </span>
             </motion.h1>
@@ -90,7 +90,7 @@ export const Hero = ({ onOpenResume, onOpenHireMe }) => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="h-10 sm:h-12 flex items-center mt-3 text-lg sm:text-xl font-medium text-slate-700 dark:text-slate-300"
+              className="min-h-10 sm:h-12 flex flex-wrap items-center mt-3 text-base sm:text-xl font-medium text-slate-700 dark:text-slate-300"
             >
               <span className="text-slate-500 dark:text-slate-400 mr-2">Specializing in:</span>
               <div className="relative overflow-hidden inline-block h-8">
